@@ -43,7 +43,7 @@ html, body {
   @media screen and (min-width: 769px) and (max-width: 1141px) {
     margin-left: 20px;
   }
-  @media screen and (min-width: 319px) and (max-width:769px) {
+  @media screen and (min-width: 319px) and (max-width: 769px) {
     margin-left: 50px;
   }
 }
@@ -57,38 +57,39 @@ html, body {
     //max-width: 800px;
   }
 
-&__header {
-  margin-bottom: 120px;
-  margin-top: 130px;
+  &__header {
+    margin-bottom: 120px;
+    margin-top: 130px;
+  }
+
+  &__title {
+    margin: 0 auto;
+    opacity: 0.9;
+    color: #000;
+    font-family: $primary-font;
+    font-size: 3.8rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 28px;
+    text-align: center; // уточнить в ТЗ
+    text-transform: uppercase;
+    letter-spacing: 2.28px;
+  }
+
+  &__subtitle {
+    margin: 15px auto 0;
+    opacity: 0.62;
+    color: #000;
+    font-family: $subTitle-font;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+  }
+
 }
 
-&__title {
-  margin: 0 auto;
-  opacity: 0.9;
-  color: #000;
-  font-family: $primary-font;
-  font-size: 3.8rem;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 28px;
-  text-align: center; // уточнить в ТЗ
-  text-transform: uppercase;
-  letter-spacing: 2.28px;
-}
-
-&__subtitle {
-  margin: 15px auto 0;
-  opacity: 0.62;
-  color: #000;
-  font-family: $subTitle-font;
-  font-size: 1.7rem;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.08px;
-}
-
-}
 .btn-primary {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
@@ -126,7 +127,7 @@ html, body {
     left: 18px;
     display: none;
     //visibility: hidden;
-    @media screen and (min-width: 319px) and (max-width:769px) {
+    @media screen and (min-width: 319px) and (max-width: 769px) {
       visibility: hidden;
     }
   }
@@ -134,7 +135,7 @@ html, body {
   &__img {
     //transform: scale(1.5);
     @media screen and (min-width: 319px) and (max-width: 420px) {
-     width: 250px;
+      width: 250px;
     }
   }
 
@@ -252,16 +253,15 @@ html, body {
     margin: 180px 0 130px 0;
     text-align: center;
     color: #505050;
-    //line-height: 28px;
     font-weight: 700;
     font-size: 4.5rem;
     text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
     text-transform: uppercase;
     letter-spacing: 2.7px;
-    @media screen and (min-width: 319px) and (max-width:768px) {
+    @media screen and (min-width: 319px) and (max-width: 768px) {
       line-height: 50px;
       font-size: 3rem;
-  }
+    }
     line-height: 50px;
   }
 
@@ -271,7 +271,6 @@ html, body {
 
   &__title_bg {
     background-color: #adebe7;
-    //opacity: 0.5;
     padding: 0 10px 0 10px;
     margin-right: 10px;
   }
@@ -282,19 +281,18 @@ html, body {
   }
 
   &__uniqItem {
-    // some styles
     position: absolute;
     right: 95px;
     bottom: 135px;
-    // Доделать этот странный стакан\
     @media screen and (min-width: 319px) and (max-width: 768px) {
       position: absolute;
       right: 50px;
       bottom: 50px;
-  }
+    }
 
-  &__btn {
-    margin-bottom: 195px;
+    &__btn {
+      margin-bottom: 195px;
+    }
   }
 }
 
@@ -325,9 +323,10 @@ html, body {
     @media (max-width: 992px) {
       margin: 0 auto;
     }
-    @media screen and (min-width:319px) and (max-width: 1140px) {
-     width:250px;
+    @media screen and (min-width: 319px) and (max-width: 1140px) {
+      width: 250px;
     }
+
     & > img {
       width: 100%;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
@@ -420,6 +419,7 @@ html, body {
     min-width: 290px;
     max-width: 500px;
   }
+
   &__items {
     list-style: none;
     padding: 0;
@@ -432,6 +432,12 @@ html, body {
     color: rgba(255, 255, 255, 0.7);
     font-family: $text-font;
 
+    & > a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
     &_jumped {
       font-family: Georgia, sans serif;
     }
