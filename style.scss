@@ -112,11 +112,14 @@ html, body {
     cursor: pointer;
     text-decoration: none;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
   }
 }
 
 .gallery__item:hover .gallery__info {
-  display: block;
+  //display: block;
+  opacity: 1;
+  transition: 0.5s;
   //visibility: visible;
 }
 
@@ -126,7 +129,8 @@ html, body {
     position: absolute;
     bottom: 15px;
     left: 18px;
-    display: none;
+    //display: none;
+    opacity: 0.0;
     //visibility: hidden;
     @media screen and (min-width: 319px) and (max-width: 769px) {
       visibility: hidden;
@@ -202,7 +206,7 @@ html, body {
   }
 
   font-family: $primary-font;
-  opacity: 0.98;
+  //opacity: 0.98;
 
   &__content {
     display: flex;
@@ -436,6 +440,7 @@ html, body {
     & > a {
       &:hover {
         text-decoration: underline;
+        transition: .3s;
       }
     }
 
@@ -655,6 +660,7 @@ html, body {
     }
 
     &:hover {
+      transition: 0.3s;
       background-color: #71f6eb;
       color: #000;
     }
