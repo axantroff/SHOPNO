@@ -214,7 +214,7 @@ html, body {
 @media screen and (min-width: 319px) and (max-width: 768px) {
   .header__title {
     line-height: 50px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 .header__title_fRow {
