@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AL RAYHAN",
+    "imageSrc": "assets/img/ourTeam/team_1.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  },
+ {
+    "name": "Eben Bellamy",
+    "imageSrc": "assets/img/ourTeam/team_2.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  },
+  {
+    "name": "Njǫrðr Lazar",
+    "imageSrc": "assets/img/ourTeam/team_3.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  },
+  {
+    "name": "Boban Candi",
+    "imageSrc": "assets/img/ourTeam/team_4.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  },
+  {
+    "name": "Abhishek Vasu",
+    "imageSrc": "assets/img/ourTeam/team_5.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  },
+  {
+    "name": "Diokles Nicol",
+    "imageSrc": "assets/img/ourTeam/team_1.jpg",
+    "position": "UI Designer",
+    "description": "Lorem Ipsum is not simply is  an action designer random text. "
+  }
+]
